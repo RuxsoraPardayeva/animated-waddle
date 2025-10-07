@@ -12,6 +12,7 @@ int parkingfee2(int hours){
     return (hours-2)*2;
 
   };
+
 int parkingfee3(int hours){
     return (3*2+(hours-5)*5);
 
@@ -20,10 +21,10 @@ void totalbill(int &totalbill,int number,int price){
     totalbill+=number*price;
 };
 int main() {
-    //problem 5
+    // problem 5
     // int ibalance=500;
     // while (true){
-    //     int choice;
+    //      int choice;
     //     cout<<"1. Chech balance"<<endl;
     //     cout<<"2. withdraw"<<endl;
     //     cout<<"3. Deposit"<<endl;
